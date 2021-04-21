@@ -1,0 +1,61 @@
+  body{
+    background-color: rgb(255, 255, 255);
+}
+.mainHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.drumSounds{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.drum{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 2px;
+    box-shadow: 0px 0px 5px #888888;
+    width: 100px;
+    background-color:white;
+}
+
+.drum h2{
+    display: flex;
+    flex-direction: column;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.drum p{
+    display: flex;
+    flex-direction: column;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+.drumImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drumImage img{
+    margin-top: 50px;
+    width: 65%;
+}
