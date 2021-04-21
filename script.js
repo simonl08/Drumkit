@@ -20,64 +20,65 @@ const pressLetterL = document.getElementById("pressL")
 
 
 
-document.addEventListener('keypress',(keyValue) => {
-    if (keyValue.keyCode == 97) {
+document.addEventListener("keypress", (e) => {
+    if (e.key === "a" || e.key === "A")  {
+        boom.pause();
         boom.currentTime = 0
         boom.play();
         pressLetterA.style.backgroundColor = "yellow";
         onkeyup = () => {
         pressLetterA.style.backgroundColor = "";
     }
-    } else if (keyValue.keyCode == 115) {
+    } else if (e.key === "s" || e.key === "S") {
         clap.currentTime = 0
         clap.play();
         pressLetterS.style.backgroundColor = "yellow";
         onkeyup = () => {
         pressLetterS.style.backgroundColor = "";
     }
-    } else if (keyValue.keyCode == 100) {
+    } else if (e.key === "d" || e.key === "D") {
         hihat.currentTime = 0
         hihat.play();
         pressLetterD.style.backgroundColor = "yellow";
         onkeyup = () => {
         pressLetterD.style.backgroundColor = "";
     }
-    } else if (keyValue.keyCode == 102) {
+    } else if (e.key === "f" || e.key === "F") {
         kick.currentTime = 0
         kick.play();
         pressLetterF.style.backgroundColor = "yellow";
         onkeyup = () => {
         pressLetterF.style.backgroundColor = "";
     }
-    } else if (keyValue.keyCode == 103) {
+    } else if (e.key === "g" || e.key === "G") {
         openhat.currentTime = 0
         openhat.play();
         pressLetterG.style.backgroundColor = "yellow";
         onkeyup = () => {
         pressLetterG.style.backgroundColor = "";
     }
-    } else if (keyValue.keyCode == 104) {
+    } else if (e.key === "h" || e.key === "H") {
         ride.currentTime = 0
         ride.play();
         pressLetterH.style.backgroundColor = "yellow";
         onkeyup = () => {
         pressLetterH.style.backgroundColor = "";
     }
-    } else if (keyValue.keyCode == 106) {
+    } else if (e.key === "j" || e.key === "J") {
         snare.currentTime = 0
         snare.play();
         pressLetterJ.style.backgroundColor = "yellow";
         onkeyup = () => {
         pressLetterJ.style.backgroundColor = "";
     }
-    } else if (keyValue.keyCode == 107) {
-        tink.currentTime = -1
+    } else if (e.key === "k" || e.key === "K"){
+        tink.currentTime = 0
         tink.play();
         pressLetterK.style.backgroundColor = "yellow";
         onkeyup = () => {
         pressLetterK.style.backgroundColor = "";
     }
-    } else if (keyValue.keyCode == 108) {
+    } else if (e.key === "l" || e.key === "L") {
         tom.currentTime = 0
         tom.play();
         pressLetterL.style.backgroundColor = "yellow";
