@@ -71,7 +71,7 @@ document.addEventListener('keypress',(keyValue) => {
         pressLetterJ.style.backgroundColor = "";
     }
     } else if (keyValue.keyCode == 107) {
-        tink.currentTime = 0
+        tink.currentTime = -1
         tink.play();
         pressLetterK.style.backgroundColor = "yellow";
         onkeyup = () => {
